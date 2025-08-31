@@ -1,0 +1,1 @@
+This is a test to see if the Constant Threader can go Static
