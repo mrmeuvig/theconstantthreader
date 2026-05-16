@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>The Constant Threader</title>
+    <meta
+      name="description"
+      content="The Constant Threader — sewing and stitching by Jessica Ormerod. Latest work on Instagram."
+    />
+    <meta property="og:title" content="The Constant Threader" />
+    <meta
+      property="og:description"
+      content="Sewing and stitching — follow @theconstantthreader on Instagram."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://theconstantthreader.github.io/" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Source+Sans+3:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%238b4a3c'/%3E%3C/svg%3E" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="site-header">
+        <p class="eyebrow">Sewing &amp; stitching</p>
+        <h1 class="site-title">The Constant Threader</h1>
+        <p class="tagline">Work by Jessica Ormerod</p>
+      </header>
+
+      <main>
+        <section id="hero" class="hero" aria-live="polite">
+          <article class="post-card is-placeholder">
+            <p class="post-label">Latest on Instagram</p>
+            <p>Loading latest post…</p>
+          </article>
+        </section>
+
+        <div class="actions">
+          <a
+            id="follow-link"
+            class="btn btn-primary"
+            href="https://www.instagram.com/theconstantthreader/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg class="instagram-icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M12 2.2c3.2 0 3.6 0 4.9.1 1.2.1 1.9.2 2.4.4.6.2 1 .5 1.5 1 .5.5.8.9 1 1.5.2.5.4 1.1.4 2.4.1 1.3.1 1.7.1 4.9s0 3.6-.1 4.9c-.1 1.2-.2 1.9-.4 2.4-.2.6-.5 1-1 1.5-.5.5-.9.8-1.5 1-.5.2-1.1.4-2.4.4-1.3.1-1.7.1-4.9.1s-3.6 0-4.9-.1c-1.2-.1-1.9-.2-2.4-.4-.6-.2-1-.5-1.5-1-.5-.5-.8-.9-1-1.5-.2-.5-.4-1.1-.4-2.4-.1-1.3-.1-1.7-.1-4.9s0-3.6.1-4.9c.1-1.2.2-1.9.4-2.4.2-.6.5-1 1-1.5.5-.5.9-.8 1.5-1 .5-.2 1.1-.4 2.4-.4C8.4 2.2 8.8 2.2 12 2.2zm0 1.8c-3.1 0-3.5 0-4.7.1-1.1.1-1.7.2-2.1.4-.5.2-.9.4-1.3.8-.4.4-.6.8-.8 1.3-.2.4-.3 1-.4 2.1-.1 1.2-.1 1.6-.1 4.7s0 3.5.1 4.7c.1 1.1.2 1.7.4 2.1.2.5.4.9.8 1.3.4.4.8.6 1.3.8.4.2 1 .3 2.1.4 1.2.1 1.6.1 4.7.1s3.5 0 4.7-.1c1.1-.1 1.7-.2 2.1-.4.5-.2.9-.4 1.3-.8.4-.4.6-.8.8-1.3.2-.4.3-1 .4-2.1.1-1.2.1-1.6.1-4.7s0-3.5-.1-4.7c-.1-1.1-.2-1.7-.4-2.1-.2-.5-.4-.9-.8-1.3-.4-.4-.8-.6-1.3-.8-.4-.2-1-.3-2.1-.4-1.2-.1-1.6-.1-4.7-.1zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 1.8a3.2 3.2 0 1 0 0 6.4 3.2 3.2 0 0 0 0-6.4zM17.6 6.4a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"
+              />
+            </svg>
+            Follow on Instagram
+          </a>
+          <a
+            class="btn btn-ghost"
+            href="https://www.instagram.com/theconstantthreader/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @theconstantthreader
+          </a>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <p>&copy; <span id="year"></span> The Constant Threader</p>
+      </footer>
+    </div>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
